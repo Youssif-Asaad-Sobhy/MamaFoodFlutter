@@ -196,60 +196,60 @@ class _LoginState extends State<Login> {
                     SizedBox(
                       height: 40,
                     ),
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Divider(
-                            color: Color.fromRGBO(230, 87, 56, 1),
-                            height: 36,
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 8),
-                          child: Text(
-                            'Or login with',
-                            style: TextStyle(
-                                color: Color.fromRGBO(41, 52, 65, 1),
-                                fontSize: 16,
-                                fontWeight: FontWeight.w700),
-                          ),
-                        ),
-                        Expanded(
-                          child: Divider(
-                            color: Color.fromRGBO(230, 87, 56, 1),
-                            height: 36,
-                          ),
-                        ),
-                      ],
-                    ),
-                    SizedBox(
-                      height: 20,
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        TextButton(
-                            onPressed: () {},
-                            style: ButtonStyle(
-                              shape: MaterialStateProperty.all<OutlinedBorder>(
-                                RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10),
-                                ),
-                              ),
-                            ),
-                            child: Icon(Icons.facebook_outlined)),
-                        TextButton(
-                            onPressed: () {},
-                            style: ButtonStyle(
-                              shape: MaterialStateProperty.all<OutlinedBorder>(
-                                RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10),
-                                ),
-                              ),
-                            ),
-                            child: Icon(Icons.facebook_outlined)),
-                      ],
-                    )
+                    // Row(
+                    //   children: [
+                    //     Expanded(
+                    //       child: Divider(
+                    //         color: Color.fromRGBO(230, 87, 56, 1),
+                    //         height: 36,
+                    //       ),
+                    //     ),
+                    //     Padding(
+                    //       padding: const EdgeInsets.symmetric(horizontal: 8),
+                    //       child: Text(
+                    //         'Or login with',
+                    //         style: TextStyle(
+                    //             color: Color.fromRGBO(41, 52, 65, 1),
+                    //             fontSize: 16,
+                    //             fontWeight: FontWeight.w700),
+                    //       ),
+                    //     ),
+                    //     Expanded(
+                    //       child: Divider(
+                    //         color: Color.fromRGBO(230, 87, 56, 1),
+                    //         height: 36,
+                    //       ),
+                    //     ),
+                    //   ],
+                    // ),
+                    // SizedBox(
+                    //   height: 20,
+                    // ),
+                    // Row(
+                    //   mainAxisAlignment: MainAxisAlignment.center,
+                    //   children: [
+                    //     TextButton(
+                    //         onPressed: () {},
+                    //         style: ButtonStyle(
+                    //           shape: MaterialStateProperty.all<OutlinedBorder>(
+                    //             RoundedRectangleBorder(
+                    //               borderRadius: BorderRadius.circular(10),
+                    //             ),
+                    //           ),
+                    //         ),
+                    //         child: Icon(Icons.facebook_outlined)),
+                    //     TextButton(
+                    //         onPressed: () {},
+                    //         style: ButtonStyle(
+                    //           shape: MaterialStateProperty.all<OutlinedBorder>(
+                    //             RoundedRectangleBorder(
+                    //               borderRadius: BorderRadius.circular(10),
+                    //             ),
+                    //           ),
+                    //         ),
+                    //         child: Icon(Icons.facebook_outlined)),
+                    //   ],
+                    // )
                   ],
                 ),
               ),
